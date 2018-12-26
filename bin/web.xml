@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server>
+	<!--文件管理系统设置默认地址-->
+	<display>/index.html</display>
+	<!--配置servlet后缀-->
+	<action>.action</action>
+	<servlet>
+		<name>/file.action</name>
+		<class>succez.zfc.fileSystem.servlet.FileServlet</class>
+	</servlet>
+</server>

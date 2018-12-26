@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--webserver 基础配置-->
+<config>
+	<!--服务器端口号-->
+	<port>8090</port>
+	<!--服务器线程池大小-->
+	<poolSize>3</poolSize>
+	<!--fileSystem起始路径-->
+	<path>d:/</path>
+	<!--服务器IP地址-->
+	<address></address>
+	<!--webapp路径 不填写时默认为webRoot-->
+	<webRoot>D:/Users/zfc/workspace/study/webserver_zhoufengc/webRoot</webRoot>
+</config>
